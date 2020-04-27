@@ -1,8 +1,7 @@
 import React from 'react'
 import { Switch, Route } from 'react-router-dom'
 
-import Main from './Pages/Main'
-import AddEvent from './Pages/AddEvent'
+import { AddEvent, Main } from './Pages'
 import Layout from './Components/Layout/Layout'
 
 const Routes = ({}) => {

@@ -4,6 +4,9 @@
 
 A simple application built with react.js for UI and Redux for managing the application state
 
+
+
 ```
 Made with ❤️ by Dmitriy Shin
 ```
+

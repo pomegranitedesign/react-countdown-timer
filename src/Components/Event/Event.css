@@ -1,2 +1,44 @@
 .eventContainer {
+  padding: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 32px;
+}
+
+.timeLeftText {
+  font-size: 24px;
+  font-weight: 100;
+  text-align: center;
+}
+
+.time {
+  font-weight: 900;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+.timeButtons {
+  display: flex;
+  justify-content: center;
+}
+
+.controls {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.resetButton {
+  width: 100%;
+}
+
+/* MEDIA - MOBILE */
+@media screen and (max-width: 768px) {
+  .eventContainer {
+    font-size: 24px;
+    width: 300px;
+  }
 }

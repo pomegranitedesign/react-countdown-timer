@@ -7,16 +7,12 @@ import './Header.css'
 const Header = ({}) => {
   return (
     <header className="header">
-      <NavLink
-        className="navLink"
-        activeClassName={{ color: '#f1e3f3' }}
-        to="/"
-      >
+      <NavLink className="navLink" activeStyle={{ color: '#f1e3f3' }} to="/">
         <h3 className="logo">CDTimer</h3>
       </NavLink>
       <NavLink
         className="navLink"
-        activeClassName={{ color: '#f1e3f3' }}
+        activeStyle={{ color: '#f1e3f3' }}
         to="/add-event"
       >
         <IoIosAddCircleOutline />

@@ -5,10 +5,17 @@
   background-color: #3590f3;
   width: 100%;
   text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   color: #ffffff;
   font-weight: 400;
   font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer > p {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  margin: 0;
 }
